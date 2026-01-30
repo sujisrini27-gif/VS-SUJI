@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sujitha S - ECE Student Portfolio</title>
+  <link rel="stylesheet" href="portfolio-style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Sujitha S</div>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION WITH CANVAS ANIMATION -->
+  <section id="hero" class="hero-section">
+    <canvas id="scroll-canvas"></canvas>
+    <div class="hero-content">
+      <h1 class="hero-name">Sujitha S</h1>
+      <h2 class="hero-title">Electronics and Communication Engineering Student</h2>
+      <p class="hero-tagline">Passionate about embedded systems and communication technologies. Eager to learn, grow, and contribute to innovative projects.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">Career Summary</h2>
+      <div class="about-content">
+        <p class="about-text">
+          Electronics and Communication Engineering student with basic knowledge in embedded systems and communication technologies. Looking for a job opportunity to learn more, improve skills, contribute to a team, and grow professionally. Dedicated to applying theoretical knowledge to practical applications and continuously expanding technical expertise.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <h2 class="section-title">Educational Qualifications</h2>
+      <div class="education-content">
+        
+        <div class="education-card">
+          <h3>B.E – Electronics and Communication Engineering</h3>
+          <h4>Alagappa Chettiar Government College of Engineering and Technology, Karaikudi</h4>
+          <p class="education-year">2022 – 2026</p>
+          <p class="education-grade">CGPA: 8.281</p>
+        </div>
+
+        <div class="education-card">
+          <h3>Higher Secondary (HSC)</h3>
+          <h4>Vivekananda Vidyalaya Matric Higher Secondary School, Manampoondi</h4>
+          <p class="education-year">2022</p>
+          <p class="education-grade">94.3%</p>
+        </div>
+
+        <div class="education-card">
+          <h3>Secondary School (SSLC)</h3>
+          <h4>Vivekananda Vidyalaya Matric Higher Secondary School, Manampoondi</h4>
+          <p class="education-year">2020</p>
+          <p class="education-grade">96.4%</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        
+        <div class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <h3>Embedded Systems</h3>
+          <ul class="skill-list">
+            <li>ESP32 Microcontroller</li>
+            <li>Motor Driver Modules</li>
+            <li>IoT Integration</li>
+            <li>Hardware Design</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Programming Languages</h3>
+          <ul class="skill-list">
+            <li>Python (Basics)</li>
+            <li>C Programming (Basics)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>Digital Electronics</h3>
+          <ul class="skill-list">
+            <li>Circuit Design</li>
+            <li>Logic Gates</li>
+            <li>Digital Systems</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Communication Technologies</h3>
+          <ul class="skill-list">
+            <li>MQTT Protocol</li>
+            <li>Network Communication</li>
+            <li>Data Transmission</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2 class="section-title">Project Exposure</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div class="project-icon">🔐</div>
+          <h3>Smart Lock System</h3>
+          <p>Developed a smart lock system aimed at improving security and convenience. The system uses ESP32 as the main controller, handling network communication and logic control. It receives valid signals from external sensors and activates a solenoid valve through an L298N motor driver module.</p>
+          <div class="project-tags">
+            <span class="tag">ESP32</span>
+            <span class="tag">IoT</span>
+            <span class="tag">MQTT</span>
+            <span class="tag">Home Automation</span>
+          </div>
+          <div class="project-details">
+            <h4>Key Features:</h4>
+            <ul class="project-list">
+              <li>ESP32 microcontroller for main control</li>
+              <li>Solenoid valve for lock mechanism</li>
+              <li>L298N motor driver module integration</li>
+              <li>MQTT-enabled for remote control</li>
+              <li>Real-time access management</li>
+              <li>Low-cost, effective design</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIAL EXPOSURE SECTION -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <h2 class="section-title">Industrial Exposure</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">25 Days Internship</div>
+            <h3>Embedded Systems Intern</h3>
+            <h4>IMBED SOFTWARE, Karaikudi</h4>
+            <ul class="experience-list">
+              <li>Gained hands-on experience in embedded systems development</li>
+              <li>Worked on real-world projects and practical applications</li>
+              <li>Enhanced understanding of industry standards and best practices</li>
+              <li>Collaborated with experienced professionals in the field</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <section id="achievements" class="section certifications-section">
+    <div class="container">
+      <h2 class="section-title">Achievements</h2>
+      <div class="certifications-grid">
+        
+        <div class="cert-card">
+          <div class="cert-logo">🏆</div>
+          <h3>Handball Champion</h3>
+          <p>Winner at Divisional Level</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-logo">🏀</div>
+          <h3>Basketball - Zonal Level</h3>
+          <p>2nd Runner-up</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-logo">🏀</div>
+          <h3>Basketball - CM Trophy</h3>
+          <p>2nd Runner-up</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LANGUAGES SECTION -->
+  <section id="languages" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">Languages Known</h2>
+      <div class="about-content">
+        <div class="languages-list">
+          <div class="language-item">
+            <div class="language-icon">🗣️</div>
+            <h3>Tamil</h3>
+          </div>
+          <div class="language-item">
+            <div class="language-icon">🗣️</div>
+            <h3>English</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        
+        <div class="contact-info">
+          
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <h3>Phone</h3>
+              <p>+91 6383049857</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:sujisrini27@gmail.com">sujisrini27@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📅</div>
+            <div>
+              <h3>Date of Birth</h3>
+              <p>27/10/2004</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h3>Location</h3>
+              <p>Karaikudi, Tamil Nadu, India</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Declaration: All the information provided is true to the best of my knowledge</p>
+      <p>&copy; 2025 Sujitha S. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="chat-wrapper">
+    <button id="chat-toggle" class="chat-btn">
+        <span class="icon">💬</span>
+    </button>
+
+    <div id="chat-container" class="chat-hidden">
+        <div class="chat-header">
+            <h3>Sujitha's Assistant</h3>
+            <button id="close-chat">&times;</button>
+        </div>
+        <div id="chat-messages">
+            <div class="message bot-msg">Hi! I'm Sujitha's virtual assistant. Ask me anything about her projects or skills!</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off">
+            <button id="chat-send">Send</button>
+        </div>
+    </div>
+  </div>
+
+  <script src="portfolio-script.js"></script>
+</body>
+</html>
